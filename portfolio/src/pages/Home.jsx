@@ -1,9 +1,11 @@
+import SlideShow from "../components/SlideShow";
+
 export default function Home() {
     return (
         <>
             <h1>Welcome to the Jungle</h1>
             <section>
-                <p>insert photo gallery</p>
+                <SlideShow />
             </section>
         </>
     )

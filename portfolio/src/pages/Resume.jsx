@@ -1,3 +1,69 @@
-export default function Resume(){
-    return <></>
+export default function Resume() {
+    return (<>
+        {/* mission, skills (tech/soft), awards/certs, edu, history */}
+        <article>
+<section>
+        <h2>My Mission:</h2>
+        <p>insert mission statement</p>
+</section>
+<section>
+    <h2>Skills:</h2>
+    <div>
+        <ul>
+            <h4>Technical</h4>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul>
+            <h4>Transferable</h4>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</section>
+<section>
+    <h2>Education:</h2>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <h2>Training:</h2>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</section>
+<section>
+    <h2>Work History:</h2>
+    <ul>
+        <li>
+            <div>
+                <h4></h4>
+                <p><span></span></p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h4></h4>
+                <p><span></span></p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h4></h4>
+                <p><span></span></p>
+            </div>
+        </li>
+    </ul>
+</section>
+        </article>
+    </>)
 }
