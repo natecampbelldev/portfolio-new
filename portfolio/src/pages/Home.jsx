@@ -1,7 +1,10 @@
-export default function Home(){
-    return(
+export default function Home() {
+    return (
         <>
-        <h1>Home Page</h1>
+            <h1>Welcome to the Jungle</h1>
+            <section>
+                <p>insert photo gallery</p>
+            </section>
         </>
     )
 }

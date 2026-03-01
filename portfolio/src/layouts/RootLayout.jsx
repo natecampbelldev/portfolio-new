@@ -3,9 +3,14 @@ import { Link, Outlet } from "react-router"
 export default function RootLayout(){
     return(
         <>
-        <header style={{backgroundColor: "blue"}}></header>
+        <header style={{backgroundColor: "blue"}}>
+            <h1>Nate Campbell</h1>
+            <p>Full-Stack Developer || Artist || Musician || Foodie</p>
+            <a href="#">GitHub</a> <a href="#">LinkedIn</a>
+        </header>
         <aside style={{backgroundColor: "red"}}>
             <nav>
+                <Link to="/">Home</Link>
                 <Link to="/about">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
@@ -14,7 +19,9 @@ export default function RootLayout(){
         <main>
             <Outlet />
         </main>
-        <footer style={{backgroundColor: "green"}}></footer>
+        <footer style={{backgroundColor: "green"}}>
+            <p>This is an S_Kimo Studios production &#169;2026</p>
+        </footer>
         </>
     )
 }
