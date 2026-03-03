@@ -9,13 +9,13 @@ export default function SlideShow() {
         { img: 'path', alt: 'text' }
     ]
 
-    useEffect(() => {
-        const slider = setInterval(() => {
-            pic < pictures.length ? setPic(p => p + 1) : setPic(0)
-        }, 5000)
+    // useEffect(() => {
+    //     const slider = setInterval(() => {
+    //         pic < pictures.length ? setPic(p => p + 1) : setPic(0)
+    //     }, 5000)
 
-        return () => clearInterval(slider)
-    })
+    //     return () => clearInterval(slider)
+    // })
 
     return <img src={pictures[pic].img} alt={pictures[pic].alt} />
 }
