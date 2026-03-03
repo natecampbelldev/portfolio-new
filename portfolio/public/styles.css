@@ -95,13 +95,14 @@ h5 {
     text-shadow: 2px 2px 4px var(--prime-900);
 }
 
-
+article {
+        max-width: 70%;
+}
 
 /* utils */
 .flex {
     display: flex;
     justify-content: space-between;
-    max-width: 80%;
 }
 
 ul:not(.dots){

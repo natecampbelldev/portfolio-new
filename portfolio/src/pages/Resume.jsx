@@ -1,7 +1,7 @@
 export default function Resume() {
     return (<>
         <article>
-            <section>
+            <section className="">
                 <h2>Summary:</h2>
                 <p>Motivated full-stack developer with hands-on experience using JavaScript, React, Node.js, and MongoDB. Passionate about building efficient, user-friendly applications and contributing to collaborative tech teams.
                 </p>
